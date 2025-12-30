@@ -22,3 +22,6 @@ learnt cloc, lernt how to use solidity metrics to get clearer data, found first 
 ## 29/12/25 - 
 learnt this command " cast storage 0x5FbDB2315678afecb367f032d93F642f64180aa3 1 --rpc-url http://127.0.0.1:8545"
 learnt how to write finings properly
+
+## 30/12/25 -
+learnt severity by the means of likelyhood and impact and also learnt good markdown systax for reporting
