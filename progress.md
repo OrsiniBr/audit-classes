@@ -64,8 +64,11 @@ learnt how to write reports and turn markdown to pdf
    writting report for the bugs on puppy raffle.
    took advantage of reports from slither and Adryn
 
-## 15/01/25
+## 15/01/26
   reported reentrancy  
 
-## 17/01/25
+## 17/01/26
   write report for reentrancy, magic numbers, CEI, Integer Overflow, weak randomness, getActivePlayerIndex 
+
+## 19/01/16
+  summarize puppyRaffle report, create a pdf by formatting the report.md and using the pandoc command.

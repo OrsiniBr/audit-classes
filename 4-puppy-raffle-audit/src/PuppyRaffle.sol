@@ -198,9 +198,9 @@ contract PuppyRaffle is ERC721, Ownable {
 
         // We use a different RNG calculate from the winnerIndex to determine rarity
 
-        // @audit randomness
+        // written randomness
 
-        // @audit people can revert the TX untill the win their preffered token
+        // written people can revert the TX untill the win their preffered token
         uint256 rarity = uint256(
             keccak256(abi.encodePacked(msg.sender, block.difficulty))
         ) % 100;
@@ -224,8 +224,8 @@ contract PuppyRaffle is ERC721, Ownable {
 
     /// @notice this function will withdraw the fees to the feeAddress
     function withdrawFees() external {
-        // @audit is it difficult to withdraw fees if there are players (MEV)
-        // @audit mishandeling eth
+        // skipped is it difficult to withdraw fees if there are players (MEV)
+        // written mishandeling eth
         require(
             address(this).balance == uint256(totalFees),
             "PuppyRaffle: There are currently players active!"
